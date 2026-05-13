@@ -1,0 +1,31 @@
+{
+  "database": {
+    "name": "raj",
+    "owner": "aa",
+    "tables": {
+      "students": {
+        "columns": [
+          "rollno"
+        ],
+        "column_definitions": [
+          {
+            "name": "rollno",
+            "definition": "int12"
+          }
+        ],
+        "primary_key": "rollno",
+        "records": [
+          {
+            "rollno": 1,
+            "_created_at": "2026-04-16T06:30:01.848399",
+            "_updated_at": "2026-04-16T06:30:01.848399"
+          }
+        ],
+        "created_at": "2026-04-16T06:29:35.459160"
+      }
+    },
+    "created_at": "2026-04-16T06:28:58.090934"
+  },
+  "password_hash": null,
+  "owner": "aa"
+}

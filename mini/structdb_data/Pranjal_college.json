@@ -1,0 +1,73 @@
+{
+  "database": {
+    "name": "college",
+    "owner": "Pranjal",
+    "tables": {
+      "students": {
+        "columns": [
+          "id",
+          "name",
+          "age",
+          "major"
+        ],
+        "column_definitions": [
+          {
+            "name": "id",
+            "definition": "TEXT"
+          },
+          {
+            "name": "name",
+            "definition": "TEXT"
+          },
+          {
+            "name": "age",
+            "definition": "TEXT"
+          },
+          {
+            "name": "major",
+            "definition": "TEXT"
+          }
+        ],
+        "primary_key": "id",
+        "records": [
+          {
+            "id": 1,
+            "name": "Alice",
+            "age": 20,
+            "major": "CS",
+            "_created_at": "2026-04-29T09:42:04.480618",
+            "_updated_at": "2026-04-29T09:42:04.480618"
+          },
+          {
+            "id": 2,
+            "name": "Bob",
+            "age": 22,
+            "major": "Math",
+            "_created_at": "2026-04-29T09:42:04.481617",
+            "_updated_at": "2026-04-29T09:42:04.481617"
+          },
+          {
+            "id": 3,
+            "name": "Charlie",
+            "age": 21,
+            "major": "CS",
+            "_created_at": "2026-04-29T09:42:04.482622",
+            "_updated_at": "2026-04-29T09:42:04.482622"
+          },
+          {
+            "id": 4,
+            "name": "David",
+            "age": 19,
+            "major": "Physics",
+            "_created_at": "2026-04-29T09:42:04.485700",
+            "_updated_at": "2026-04-29T09:42:04.485700"
+          }
+        ],
+        "created_at": "2026-04-29T09:42:04.477609"
+      }
+    },
+    "created_at": "2026-04-28T10:27:21.035963"
+  },
+  "password_hash": null,
+  "owner": "Pranjal"
+}

@@ -1,0 +1,31 @@
+{
+  "database": {
+    "name": "company",
+    "owner": "root",
+    "tables": {
+      "employee": {
+        "columns": [
+          "name"
+        ],
+        "column_definitions": [
+          {
+            "name": "name",
+            "definition": "varchar(10"
+          }
+        ],
+        "primary_key": "name",
+        "records": [
+          {
+            "name": "",
+            "_created_at": "2025-11-03T19:50:25.204342",
+            "_updated_at": "2025-11-03T19:50:25.204342"
+          }
+        ],
+        "created_at": "2025-11-03T19:45:24.165262"
+      }
+    },
+    "created_at": "2025-11-03T19:43:49.279859"
+  },
+  "password_hash": null,
+  "owner": "root"
+}

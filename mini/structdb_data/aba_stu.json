@@ -1,0 +1,10 @@
+{
+  "database": {
+    "name": "stu",
+    "owner": "aba",
+    "tables": {},
+    "created_at": "2026-05-13T10:32:16.019047"
+  },
+  "password_hash": null,
+  "owner": "aba"
+}

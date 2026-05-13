@@ -1,0 +1,57 @@
+{
+  "database": {
+    "name": "np",
+    "owner": "a",
+    "tables": {
+      "stu": {
+        "columns": [
+          "rollno",
+          "name",
+          "class",
+          "Phoneno"
+        ],
+        "column_definitions": [
+          {
+            "name": "rollno",
+            "definition": "TEXT"
+          },
+          {
+            "name": "name",
+            "definition": "TEXT"
+          },
+          {
+            "name": "class",
+            "definition": "TEXT"
+          },
+          {
+            "name": "Phoneno",
+            "definition": "TEXT"
+          }
+        ],
+        "primary_key": "rollno",
+        "records": [
+          {
+            "rollno": 1,
+            "name": "Aman",
+            "class": "first",
+            "Phoneno": 9927526902,
+            "_created_at": "2026-04-27T20:21:44.231679",
+            "_updated_at": "2026-04-27T20:21:44.231679"
+          },
+          {
+            "rollno": 2,
+            "name": "Naitik",
+            "class": "second",
+            "Phoneno": "9058443346",
+            "_created_at": "2026-04-27T20:22:49.801400",
+            "_updated_at": "2026-04-27T20:23:59.250505"
+          }
+        ],
+        "created_at": "2026-04-27T20:21:33.223966"
+      }
+    },
+    "created_at": "2026-04-27T20:01:54.269402"
+  },
+  "password_hash": null,
+  "owner": "a"
+}

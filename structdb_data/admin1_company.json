@@ -1,0 +1,57 @@
+{
+  "database": {
+    "name": "company",
+    "owner": "Admin1",
+    "tables": {
+      "employee": {
+        "columns": [
+          "name",
+          "id",
+          "course"
+        ],
+        "column_definitions": [
+          {
+            "name": "name",
+            "definition": "varchar(6)"
+          },
+          {
+            "name": "id",
+            "definition": "int(10) primary key"
+          },
+          {
+            "name": "course",
+            "definition": "char(6)"
+          }
+        ],
+        "primary_key": "name",
+        "records": [
+          {
+            "name": "pooja",
+            "id": "1",
+            "course": "BCA(AI&DS",
+            "_created_at": "2025-11-02T21:18:57.448285",
+            "_updated_at": "2025-11-02T21:18:57.448285"
+          },
+          {
+            "name": "",
+            "id": "",
+            "course": "",
+            "_created_at": "2025-11-02T21:22:03.660146",
+            "_updated_at": "2025-11-02T21:22:03.660146"
+          },
+          {
+            "name": "piyush",
+            "id": "1",
+            "course": "bca",
+            "_created_at": "2025-11-02T21:22:32.326202",
+            "_updated_at": "2025-11-02T21:22:32.326202"
+          }
+        ],
+        "created_at": "2025-11-02T21:17:31.505558"
+      }
+    },
+    "created_at": "2025-11-02T21:14:06.042859"
+  },
+  "password_hash": null,
+  "owner": "Admin1"
+}
